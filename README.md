@@ -198,7 +198,7 @@
 <body>
     <div class="container">
         <header>
-            <h1><i class="fas fa-spa"></i> 專業按摩服務價目表</h1>
+            <h1><i class="fas fa-spa"></i> 按摩服務項目</h1>
             <p>精心設計的按摩方案，針對不同需求提供專業護理，讓身心靈得到全面放鬆</p>
         </header>
         
@@ -246,7 +246,7 @@
                     <div class="service-name">身體按摩</div>
                     <div class="service-duration">60分鐘</div>
                     <div class="service-price">NT.1000</div>
-                    <div class="service-benefit">功效：針對肩頸、背部重點區域進行放鬆，緩解日常壓力造成的肌肉緊繃，改善姿勢不良問題。</div>
+                    <div class="service-benefit">功效：指壓能深度刺激穴位，疏通經絡，緩解日常壓力造成的肌肉緊繃。</div>
                 </div>
                 
                 <div class="service-item">
@@ -273,35 +273,36 @@
                     <div class="service-name">肩頸刮痧舒壓</div>
                     <div class="service-duration">30分鐘</div>
                     <div class="service-price">NT.500</div>
-                    <div class="service-benefit">功效：通過刮痧板刺激肩頸經絡，排出體內濕氣，緩解頭痛、肩頸僵硬，改善氣血循環。</div>
+                    <div class="service-benefit">功效：通過刮痧板刺激肩背經絡，排出體內濕氣，緩解頭痛、肩頸僵硬，改善氣血循環。</div>
                 </div>
                 
                 <div class="service-item">
                     <div class="service-name">肩頸按摩放鬆</div>
                     <div class="service-duration">30分鐘</div>
                     <div class="service-price">NT.500</div>
-                    <div class="service-benefit">功效：針對現代人常見的肩頸問題，使用專業手法鬆解筋膜，預防頸椎病，提升頭部血液供應。</div>
+                    <div class="service-benefit">功效：針對現代人使用電子產品的肩頸問題，使用專業手法鬆解肩、上背、手部，讓筋膜放鬆。</div>
                 </div>
                 
                 <div class="service-item">
                     <div class="service-name">耳燭香薰減壓護理</div>
                     <div class="service-duration">40分鐘</div>
                     <div class="service-price">NT.800</div>
-                    <div class="service-benefit">功效：結合耳燭的溫和熱力與香薰療法，舒緩耳部壓力，改善耳鳴，同時通過香氣放鬆神經系統。</div>
+                    <div class="service-benefit">功效：結合耳燭的溫和熱力與香薰療法，舒緩耳部壓力，改善耳鳴，同時通過香氣放鬆神經系統，顱氏負重。</div>
                 </div>
                 
                 <div class="service-item">
                     <div class="service-name">香薰臍燭舒壓護理</div>
                     <div class="service-duration">30分鐘</div>
                     <div class="service-price">NT.950</div>
-                    <div class="service-benefit">功效：針對腹部區域的特殊護理，溫暖子宮，改善消化系統功能，緩解經期不適，平衡內分泌。</div>
+                    <div class="service-benefit">功效：針對腹部區域的特殊護理，減輕消化系統不適並排除毒（如腹脹、胃氣、經痛）以及改善水腫等功效的保健護理。</div>
                 </div>
                 
                 <div class="service-item">
                     <div class="service-name">櫸木鬆筋護理</div>
                     <div class="service-duration">90分鐘</div>
                     <div class="service-price">NT.1700</div>
-                    <div class="service-benefit">功效：使用特製櫸木工具進行深層筋膜放鬆，解決肌肉沾黏問題，改善身體柔軟度，特別適合運動愛好者。</div>
+                    <div class="service-benefit">功效：使用櫸木工具進行筋膜放鬆，以疏通經絡、活絡氣血，能舒緩肌肉緊繃、促進血液與淋巴循環，排除體內廢物與水分，達到消除疲勞、提升免疫力等效果。 
+</div>
                 </div>
             </div>
         </div>
@@ -315,25 +316,22 @@
                         <div class="service-name">服務續時（足部）</div>
                         <div class="service-duration">每30分鐘</div>
                         <div class="service-price">NT.450</div>
-                        <div class="service-benefit">功效：延長足部護理時間，可針對特定反射區進行加強護理。</div>
-                    </div>
+                                        </div>
                     <div class="service-item">
                         <div class="service-name">服務續時（身體）</div>
                         <div class="service-duration">每30分鐘</div>
                         <div class="service-price">NT.550</div>
-                        <div class="service-benefit">功效：增加身體按摩時間，可針對個人需求加強特定部位護理。</div>
-                    </div>
+                                           </div>
                     <div class="service-item">
                         <div class="service-name">服務續時（櫸木鬆筋）</div>
                         <div class="service-duration">每30分鐘</div>
                         <div class="service-price">NT.650</div>
-                        <div class="service-benefit">功效：延長櫸木鬆筋時間，進行更全面的筋膜放鬆。</div>
-                    </div>
+                           </div>
                     <div class="service-item">
                         <div class="service-name">升級多特瑞精油（足部）</div>
                         <div class="service-duration"></div>
                         <div class="service-price">NT.200</div>
-                        <div class="service-benefit">功效：使用高品質精油增強按摩效果，不同精油有不同功效（如薰衣草放鬆、薄荷清涼提神等）。</div>
+                        <div class="service-benefit">功效：使用高品質精油增強按摩效果，加強舒緩肌肉痠痛。</div>
                     </div>
                 </div>
             </div>
