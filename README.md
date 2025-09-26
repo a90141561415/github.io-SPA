@@ -1,5 +1,3 @@
-# a90141561415.github.io-
-<!DOCTYPE html>
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
@@ -302,3 +300,55 @@
                 <div class="service-item">
                     <div class="service-name">櫸木鬆筋護理</div>
                     <div class="service-duration">90分鐘</div>
+                    <div class="service-price">NT.1700</div>
+                    <div class="service-benefit">功效：使用特製櫸木工具進行深層筋膜放鬆，解決肌肉沾黏問題，改善身體柔軟度，特別適合運動愛好者。</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="price-section">
+            <div class="service-category">
+                <h2><i class="fas fa-plus-circle"></i> 加購選項</h2>
+                
+                <div class="highlight">
+                    <div class="service-item">
+                        <div class="service-name">服務續時（足部）</div>
+                        <div class="service-duration">每30分鐘</div>
+                        <div class="service-price">NT.450</div>
+                        <div class="service-benefit">功效：延長足部護理時間，可針對特定反射區進行加強護理。</div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-name">服務續時（身體）</div>
+                        <div class="service-duration">每30分鐘</div>
+                        <div class="service-price">NT.550</div>
+                        <div class="service-benefit">功效：增加身體按摩時間，可針對個人需求加強特定部位護理。</div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-name">服務續時（櫸木鬆筋）</div>
+                        <div class="service-duration">每30分鐘</div>
+                        <div class="service-price">NT.650</div>
+                        <div class="service-benefit">功效：延長櫸木鬆筋時間，進行更全面的筋膜放鬆。</div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-name">升級多特瑞精油（足部）</div>
+                        <div class="service-duration"></div>
+                        <div class="service-price">NT.200</div>
+                        <div class="service-benefit">功效：使用高品質精油增強按摩效果，不同精油有不同功效（如薰衣草放鬆、薄荷清涼提神等）。</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="recommendation">
+            <h3><i class="fas fa-lightbulb"></i> 專業建議</h3>
+            <ul>
+                <li><strong>日常疲勞</strong>：推薦60-90分鐘的身體按摩或足部放鬆</li>
+                <li><strong>深度放鬆</strong>：建議選擇120分鐘的完整服務</li>
+                <li><strong>特定問題</strong>：可考慮特色護理項目針對性解決</li>
+                <li><strong>全面保健</strong>：經絡套餐提供最全面的護理效果</li>
+                <li><strong>運動恢復</strong>：櫸木鬆筋護理特別適合運動後的肌肉恢復</li>
+            </ul>
+        </div>
+        
+        <footer>
+            <p>以上價格與服務內容僅供參考，實際以店家現場公告為準</p>
