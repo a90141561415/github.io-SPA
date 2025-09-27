@@ -260,7 +260,7 @@
                         <div class="service-duration">60分鐘</div>
                     </div>
                     <div class="service-price">NT.700</div>
-                    <div class="service-benefit">功效：針對足底穴位進行按摩，促進血液循環，緩解腿部疲勞，改善腳部冰冷問題，適合久站或長時間行走後放鬆。</div>
+                    <div class="service-benefit">功效：針對足底穴位進行按摩，促進循環，緩解腿部疲勞，改善腳部冰冷問題，適合久站或長時間行走後放鬆。</div>
                 </div>
                 
                 <div class="service-item">
@@ -278,7 +278,7 @@
                         <div class="service-duration">120分鐘</div>
                     </div>
                     <div class="service-price">NT.1400</div>
-                    <div class="service-benefit">功效：完整足部與下肢護理，結合反射區療法，不僅放鬆雙腳，更能調理對應的器官功能，達到全身性的保健效果。</div>
+                    <div class="service-benefit">功效：完整足部與下肢護理，結合反射區，不僅放鬆雙腳,刺激五臟，達到全身性的保健效果。</div>
                 </div>
             </div>
             
@@ -291,7 +291,7 @@
                         <div class="service-duration">100分鐘</div>
                     </div>
                     <div class="service-price">NT.1450</div>
-                    <div class="service-benefit">功效：結合足部反射區與身體經絡按摩，疏通全身氣血，緩解肌肉僵硬，提升能量流動，適合需要全面放鬆的客人。</div>
+                    <div class="service-benefit">功效：結合足部反射區與身體經絡按摩，疏通全身，緩解肌肉僵硬，提升能量流動，適合需要全面放鬆的客人。</div>
                 </div>
             </div>
             
@@ -337,7 +337,7 @@
                         <div class="service-duration">30分鐘</div>
                     </div>
                     <div class="service-price">NT.500</div>
-                    <div class="service-benefit">功效：通過刮痧板刺激肩背經絡，排出體內濕氣，緩解頭痛、肩頸僵硬，改善氣血循環。</div>
+                    <div class="service-benefit">功效：通過刮痧板刺激肩背經絡，排出體內濕氣，緩解頭痛、肩頸僵硬，改善循環。</div>
                 </div>
                 
                 <div class="service-item">
