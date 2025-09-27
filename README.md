@@ -191,6 +191,31 @@
             
             header h1 {
                 font-size: 1.8rem;
+}
+
+        /* 手機專用字型大小調整 */
+        @media (max-width: 480px) {
+            body {
+                font-size: 14px;
+            }
+            header h1 {
+                font-size: 20px;
+            }
+            header p {
+                font-size: 0.9rem;
+            }
+            h2 {
+                font-size: 1.2rem;
+            }
+            .service-name {
+                font-size: 1rem;
+            }
+            .service-duration,
+            .service-price {
+                font-size: 0.9rem;
+            }
+            .service-benefit {
+                font-size: 0.85rem;
             }
         }
     </style>
