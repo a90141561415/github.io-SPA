@@ -179,21 +179,6 @@
             margin-top: 20px;
         }
         
-        @media (max-width: 768px) {
-            .service-item {
-                flex-direction: column;
-            }
-            
-            .service-duration, .service-price {
-                margin-top: 5px;
-                margin-left: 20px;
-            }
-            
-            header h1 {
-                font-size: 1.8rem;
-}
-
-        /* 手機專用字型大小調整 */
         @media (max-width: 480px) {
             body {
                 font-size: 14px;
