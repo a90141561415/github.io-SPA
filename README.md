@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
@@ -16,12 +17,13 @@
             background: linear-gradient(135deg, #f5f1e6 0%, #ffffff 100%);
             color: #5a4a42;
             line-height: 1.6;
-            padding: 20px;
+            padding: 15px;
             min-height: 100vh;
+            font-size: 18px; /* 增大基礎字體大小 */
         }
         
         .container {
-            max-width: 1100px;
+            max-width: 100%;
             margin: 0 auto;
             background: white;
             border-radius: 15px;
@@ -33,24 +35,26 @@
         header {
             background: linear-gradient(135deg, #8d6e63 0%, #a1887f 100%);
             color: white;
-            padding: 30px;
+            padding: 25px 20px;
             text-align: center;
         }
         
         header h1 {
-            font-size: 2.2rem;
-            margin-bottom: 10px;
+            font-size: 28px; /* 增大標題字體 */
+            margin-bottom: 15px;
+            line-height: 1.3;
         }
         
         header p {
-            font-size: 1.1rem;
+            font-size: 18px; /* 增大副標題字體 */
             opacity: 0.9;
-            max-width: 700px;
+            max-width: 100%;
             margin: 0 auto;
+            line-height: 1.5;
         }
         
         .price-section {
-            padding: 25px;
+            padding: 20px 15px;
             border-bottom: 1px dashed #e0d6cf;
         }
         
@@ -60,7 +64,7 @@
         
         h2 {
             color: #8d6e63;
-            font-size: 1.5rem;
+            font-size: 22px; /* 增大分類標題字體 */
             margin-bottom: 20px;
             padding-bottom: 10px;
             border-bottom: 2px solid #f0e6df;
@@ -71,18 +75,16 @@
         
         h2 i {
             margin-right: 10px;
-            font-size: 1.3rem;
+            font-size: 20px;
             color: #a1887f;
         }
         
         .service-category {
-            margin-bottom: 30px;
+            margin-bottom: 25px;
         }
         
         .service-item {
-            display: flex;
-            justify-content: space-between;
-            padding: 15px 0;
+            padding: 18px 0;
             border-bottom: 1px dotted #e0d6cf;
             transition: all 0.3s ease;
         }
@@ -98,30 +100,39 @@
             border-bottom: none;
         }
         
+        .service-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+        }
+        
         .service-name {
+            font-weight: 600;
+            font-size: 20px; /* 增大服務名稱字體 */
             flex: 2;
-            font-weight: 500;
-            font-size: 1.1rem;
+            margin-bottom: 5px;
         }
         
         .service-duration {
-            flex: 1;
             color: #8d6e63;
-            font-size: 0.95rem;
+            font-size: 18px; /* 增大時長字體 */
+            flex: 1;
+            text-align: right;
         }
         
         .service-price {
-            flex: 1;
-            text-align: right;
-            font-weight: 600;
+            flex-basis: 100%;
+            text-align: left;
+            font-weight: 700;
             color: #5d4037;
-            font-size: 1.1rem;
+            font-size: 20px; /* 增大價格字體 */
+            margin-top: 5px;
         }
         
         .service-benefit {
-            flex-basis: 100%;
-            margin-top: 8px;
-            font-size: 0.95rem;
+            margin-top: 10px;
+            font-size: 17px; /* 增大功效說明字體 */
             color: #7a665d;
             line-height: 1.5;
             padding-left: 10px;
@@ -137,7 +148,7 @@
         }
         
         .note {
-            font-size: 0.9rem;
+            font-size: 16px;
             color: #8d6e63;
             margin-top: 5px;
             font-style: italic;
@@ -147,7 +158,7 @@
             background: linear-gradient(135deg, #e8f5e9 0%, #f1f8e9 100%);
             padding: 20px;
             border-radius: 10px;
-            margin-top: 30px;
+            margin-top: 25px;
             border-left: 5px solid #81c784;
         }
         
@@ -156,6 +167,7 @@
             margin-bottom: 15px;
             display: flex;
             align-items: center;
+            font-size: 22px; /* 增大建議標題字體 */
         }
         
         .recommendation h3 i {
@@ -167,41 +179,68 @@
         }
         
         .recommendation li {
-            margin-bottom: 10px;
+            margin-bottom: 12px;
+            font-size: 18px; /* 增大建議內容字體 */
+            line-height: 1.5;
         }
         
         footer {
             text-align: center;
             padding: 20px;
             color: #8d6e63;
-            font-size: 0.9rem;
+            font-size: 16px;
             border-top: 1px solid #f0e6df;
             margin-top: 20px;
+            line-height: 1.5;
         }
         
+        /* 針對小屏幕設備的額外優化 */
         @media (max-width: 480px) {
             body {
-                font-size: 14px;
+                padding: 10px;
+                font-size: 19px; /* 在極小屏幕上進一步增大字體 */
             }
+            
+            header {
+                padding: 20px 15px;
+            }
+            
             header h1 {
-                font-size: 20px;
+                font-size: 26px;
             }
+            
             header p {
-                font-size: 0.9rem;
+                font-size: 17px;
             }
+            
             h2 {
-                font-size: 1.2rem;
+                font-size: 21px;
             }
+            
             .service-name {
-                font-size: 1rem;
+                font-size: 19px;
             }
-            .service-duration,
+            
+            .service-duration {
+                font-size: 17px;
+            }
+            
             .service-price {
-                font-size: 0.9rem;
+                font-size: 19px;
             }
+            
             .service-benefit {
-                font-size: 0.85rem;
+                font-size: 16px;
             }
+            
+            .recommendation li {
+                font-size: 17px;
+            }
+        }
+        
+        /* 確保觸控元素有足夠的大小 */
+        .service-item {
+            min-height: 60px; /* 確保觸控區域足夠大 */
         }
     </style>
 </head>
@@ -217,22 +256,28 @@
                 <h2><i class="fas fa-spa"></i> 足部放鬆</h2>
                 
                 <div class="service-item">
-                    <div class="service-name">基礎足部放鬆</div>
-                    <div class="service-duration">60分鐘</div>
+                    <div class="service-header">
+                        <div class="service-name">基礎足部放鬆</div>
+                        <div class="service-duration">60分鐘</div>
+                    </div>
                     <div class="service-price">NT.700</div>
                     <div class="service-benefit">功效：針對足底穴位進行按摩，促進血液循環，緩解腿部疲勞，改善腳部冰冷問題，適合久站或長時間行走後放鬆。</div>
                 </div>
                 
                 <div class="service-item">
-                    <div class="service-name">足部放鬆</div>
-                    <div class="service-duration">90分鐘</div>
+                    <div class="service-header">
+                        <div class="service-name">足部放鬆</div>
+                        <div class="service-duration">90分鐘</div>
+                    </div>
                     <div class="service-price">NT.1150</div>
                     <div class="service-benefit">功效：全面性足部護理，包含小腿按摩，深度放鬆筋膜，改善水腫問題，提升睡眠品質。</div>
                 </div>
                 
                 <div class="service-item">
-                    <div class="service-name">足部放鬆</div>
-                    <div class="service-duration">120分鐘</div>
+                    <div class="service-header">
+                        <div class="service-name">足部放鬆</div>
+                        <div class="service-duration">120分鐘</div>
+                    </div>
                     <div class="service-price">NT.1400</div>
                     <div class="service-benefit">功效：完整足部與下肢護理，結合反射區療法，不僅放鬆雙腳，更能調理對應的器官功能，達到全身性的保健效果。</div>
                 </div>
@@ -242,8 +287,10 @@
                 <h2><i class="fas fa-concierge-bell"></i> 經絡套餐</h2>
                 
                 <div class="service-item">
-                    <div class="service-name">足部+身體按摩</div>
-                    <div class="service-duration">100分鐘</div>
+                    <div class="service-header">
+                        <div class="service-name">足部+身體按摩</div>
+                        <div class="service-duration">100分鐘</div>
+                    </div>
                     <div class="service-price">NT.1450</div>
                     <div class="service-benefit">功效：結合足部反射區與身體經絡按摩，疏通全身氣血，緩解肌肉僵硬，提升能量流動，適合需要全面放鬆的客人。</div>
                 </div>
@@ -253,22 +300,28 @@
                 <h2><i class="fas fa-hands"></i> 身體按摩</h2>
                 
                 <div class="service-item">
-                    <div class="service-name">身體按摩</div>
-                    <div class="service-duration">60分鐘</div>
+                    <div class="service-header">
+                        <div class="service-name">身體按摩</div>
+                        <div class="service-duration">60分鐘</div>
+                    </div>
                     <div class="service-price">NT.1000</div>
                     <div class="service-benefit">功效：指壓能深度刺激穴位，疏通經絡，緩解日常壓力造成的肌肉緊繃。</div>
                 </div>
                 
                 <div class="service-item">
-                    <div class="service-name">身體按摩（指壓/油壓）</div>
-                    <div class="service-duration">90分鐘</div>
+                    <div class="service-header">
+                        <div class="service-name">身體按摩（指壓/油壓）</div>
+                        <div class="service-duration">90分鐘</div>
+                    </div>
                     <div class="service-price">NT.1450</div>
                     <div class="service-benefit">功效：指壓能深度刺激穴位，疏通經絡；油壓則能滋潤肌膚，放鬆肌肉纖維。可根據個人需求選擇，有效緩解深層肌肉疲勞。</div>
                 </div>
                 
                 <div class="service-item">
-                    <div class="service-name">身體按摩（指壓/油壓）</div>
-                    <div class="service-duration">120分鐘</div>
+                    <div class="service-header">
+                        <div class="service-name">身體按摩（指壓/油壓）</div>
+                        <div class="service-duration">120分鐘</div>
+                    </div>
                     <div class="service-price">NT.1900</div>
                     <div class="service-benefit">功效：全身性深度護理，從頭到腳徹底放鬆，促進淋巴排毒，恢復身體活力，適合長期壓力大或運動後的深度恢復。</div>
                 </div>
@@ -280,39 +333,48 @@
                 <h2><i class="fas fa-star"></i> 特色護理項目</h2>
                 
                 <div class="service-item">
-                    <div class="service-name">肩頸刮痧舒壓</div>
-                    <div class="service-duration">30分鐘</div>
+                    <div class="service-header">
+                        <div class="service-name">肩頸刮痧舒壓</div>
+                        <div class="service-duration">30分鐘</div>
+                    </div>
                     <div class="service-price">NT.500</div>
                     <div class="service-benefit">功效：通過刮痧板刺激肩背經絡，排出體內濕氣，緩解頭痛、肩頸僵硬，改善氣血循環。</div>
                 </div>
                 
                 <div class="service-item">
-                    <div class="service-name">肩頸按摩放鬆</div>
-                    <div class="service-duration">30分鐘</div>
+                    <div class="service-header">
+                        <div class="service-name">肩頸按摩放鬆</div>
+                        <div class="service-duration">30分鐘</div>
+                    </div>
                     <div class="service-price">NT.500</div>
                     <div class="service-benefit">功效：針對現代人使用電子產品的肩頸問題，使用專業手法鬆解肩、上背、手部，讓筋膜放鬆。</div>
                 </div>
                 
                 <div class="service-item">
-                    <div class="service-name">耳燭香薰減壓護理</div>
-                    <div class="service-duration">40分鐘</div>
+                    <div class="service-header">
+                        <div class="service-name">耳燭香薰減壓護理</div>
+                        <div class="service-duration">40分鐘</div>
+                    </div>
                     <div class="service-price">NT.800</div>
                     <div class="service-benefit">功效：結合耳燭的溫和熱力與香薰療法，舒緩耳部壓力，改善耳鳴，同時通過香氣放鬆神經系統，顱氏負重。</div>
                 </div>
                 
                 <div class="service-item">
-                    <div class="service-name">香薰臍燭舒壓護理</div>
-                    <div class="service-duration">30分鐘</div>
+                    <div class="service-header">
+                        <div class="service-name">香薰臍燭舒壓護理</div>
+                        <div class="service-duration">30分鐘</div>
+                    </div>
                     <div class="service-price">NT.950</div>
                     <div class="service-benefit">功效：針對腹部區域的特殊護理，減輕消化系統不適並排除毒（如腹脹、胃氣、經痛）以及改善水腫等功效的保健護理。</div>
                 </div>
                 
                 <div class="service-item">
-                    <div class="service-name">櫸木鬆筋護理</div>
-                    <div class="service-duration">90分鐘</div>
+                    <div class="service-header">
+                        <div class="service-name">櫸木鬆筋護理</div>
+                        <div class="service-duration">90分鐘</div>
+                    </div>
                     <div class="service-price">NT.1700</div>
-                    <div class="service-benefit">功效：使用櫸木工具進行筋膜放鬆，以疏通經絡、活絡氣血，能舒緩肌肉緊繃、促進血液與淋巴循環，排除體內廢物與水分，達到消除疲勞、提升免疫力等效果。 
-</div>
+                    <div class="service-benefit">功效：使用櫸木工具進行筋膜放鬆，以疏通經絡、活絡氣血，能舒緩肌肉緊繃、促進血液與淋巴循環，排除體內廢物與水分，達到消除疲勞、提升免疫力等效果。</div>
                 </div>
             </div>
         </div>
@@ -323,23 +385,31 @@
                 
                 <div class="highlight">
                     <div class="service-item">
-                        <div class="service-name">服務續時（足部）</div>
-                        <div class="service-duration">每30分鐘</div>
+                        <div class="service-header">
+                            <div class="service-name">服務續時（足部）</div>
+                            <div class="service-duration">每30分鐘</div>
+                        </div>
                         <div class="service-price">NT.450</div>
-                                        </div>
+                    </div>
                     <div class="service-item">
-                        <div class="service-name">服務續時（身體）</div>
-                        <div class="service-duration">每30分鐘</div>
+                        <div class="service-header">
+                            <div class="service-name">服務續時（身體）</div>
+                            <div class="service-duration">每30分鐘</div>
+                        </div>
                         <div class="service-price">NT.550</div>
-                                           </div>
+                    </div>
                     <div class="service-item">
-                        <div class="service-name">服務續時（櫸木鬆筋）</div>
-                        <div class="service-duration">每30分鐘</div>
+                        <div class="service-header">
+                            <div class="service-name">服務續時（櫸木鬆筋）</div>
+                            <div class="service-duration">每30分鐘</div>
+                        </div>
                         <div class="service-price">NT.650</div>
-                           </div>
+                    </div>
                     <div class="service-item">
-                        <div class="service-name">升級多特瑞精油（足部）</div>
-                        <div class="service-duration"></div>
+                        <div class="service-header">
+                            <div class="service-name">升級多特瑞精油（足部）</div>
+                            <div class="service-duration">單次加購</div>
+                        </div>
                         <div class="service-price">NT.200</div>
                         <div class="service-benefit">功效：使用高品質精油增強按摩效果，加強舒緩肌肉痠痛。</div>
                     </div>
@@ -358,5 +428,5 @@
             </ul>
         </div>
         
-        <footer>
-            <p>以上價格與服務內容僅供參考，實際以店家現場公告為準</p>
+</body>
+</html>
