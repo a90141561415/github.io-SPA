@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
@@ -427,6 +426,3 @@
                 <li><strong>運動恢復</strong>：櫸木鬆筋護理特別適合運動後的肌肉恢復</li>
             </ul>
         </div>
-        
-</body>
-</html>
