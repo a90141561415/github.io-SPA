@@ -246,7 +246,7 @@
 <body>
     <div class="container">
         <header>
-            <h1><i class="fas fa-spa"></i> 按摩服務項目</h1>
+            <h1><i class="fas fa-spa"></i> 舒壓服務項目</h1>
             <p>精心設計的按摩方案，針對不同需求提供專業護理，讓身心靈得到全面放鬆</p>
         </header>
         
