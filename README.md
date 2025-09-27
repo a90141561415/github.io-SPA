@@ -256,7 +256,7 @@
                 
                 <div class="service-item">
                     <div class="service-header">
-                        <div class="service-name">基礎足部放鬆</div>
+                        <div class="service-name">漢方足部按摩（基礎）</div>
                         <div class="service-duration">60分鐘</div>
                     </div>
                     <div class="service-price">NT.700</div>
@@ -265,7 +265,7 @@
                 
                 <div class="service-item">
                     <div class="service-header">
-                        <div class="service-name">足部放鬆</div>
+                        <div class="service-name">漢方足部按摩</div>
                         <div class="service-duration">90分鐘</div>
                     </div>
                     <div class="service-price">NT.1150</div>
@@ -274,7 +274,7 @@
                 
                 <div class="service-item">
                     <div class="service-header">
-                        <div class="service-name">足部放鬆</div>
+                        <div class="service-name">漢方足部按摩</div>
                         <div class="service-duration">120分鐘</div>
                     </div>
                     <div class="service-price">NT.1400</div>
@@ -300,7 +300,7 @@
                 
                 <div class="service-item">
                     <div class="service-header">
-                        <div class="service-name">身體按摩</div>
+                        <div class="service-name">身體鬆筋按摩</div>
                         <div class="service-duration">60分鐘</div>
                     </div>
                     <div class="service-price">NT.1000</div>
@@ -309,7 +309,7 @@
                 
                 <div class="service-item">
                     <div class="service-header">
-                        <div class="service-name">身體按摩（指壓/油壓）</div>
+                        <div class="service-name">身體鬆筋按摩（指壓/油壓）</div>
                         <div class="service-duration">90分鐘</div>
                     </div>
                     <div class="service-price">NT.1450</div>
@@ -318,7 +318,7 @@
                 
                 <div class="service-item">
                     <div class="service-header">
-                        <div class="service-name">身體按摩（指壓/油壓）</div>
+                        <div class="service-name">身體鬆筋按摩（指壓/油壓）</div>
                         <div class="service-duration">120分鐘</div>
                     </div>
                     <div class="service-price">NT.1900</div>
