@@ -385,21 +385,21 @@
                 <div class="highlight">
                     <div class="service-item">
                         <div class="service-header">
-                            <div class="service-name">服務續時（足部）</div>
+                            <div class="service-name">足部續時</div>
                             <div class="service-duration">每30分鐘</div>
                         </div>
                         <div class="service-price">NT.450</div>
                     </div>
                     <div class="service-item">
                         <div class="service-header">
-                            <div class="service-name">服務續時（身體）</div>
+                            <div class="service-name">身體續時</div>
                             <div class="service-duration">每30分鐘</div>
                         </div>
                         <div class="service-price">NT.550</div>
                     </div>
                     <div class="service-item">
                         <div class="service-header">
-                            <div class="service-name">服務續時（櫸木鬆筋）</div>
+                            <div class="service-name">櫸木續時</div>
                             <div class="service-duration">每30分鐘</div>
                         </div>
                         <div class="service-price">NT.650</div>
