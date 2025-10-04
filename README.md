@@ -415,8 +415,6 @@
                 </div>
             </div>
         </div>
-        
-<a href="https://lin.ee/I7QaQ2J"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" alt="加入好友" height="36" border="0"></a>
 
         <div class="recommendation">
             <h3><i class="fas fa-lightbulb"></i> 專業建議</h3>
@@ -428,3 +426,9 @@
                 <li><strong>運動恢復</strong>：櫸木鬆筋護理特別適合運動後的肌肉恢復</li>
             </ul>
         </div>
+<div style="text-align: center; margin: 20px 0;">
+    <a href="https://lin.ee/I7QaQ2J" target="_blank">
+        <img src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" 
+             alt="加入好友" height="40" border="0">
+    </a>
+</div>
