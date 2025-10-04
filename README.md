@@ -416,6 +416,8 @@
             </div>
         </div>
         
+<a href="https://lin.ee/I7QaQ2J"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" alt="加入好友" height="36" border="0"></a>
+
         <div class="recommendation">
             <h3><i class="fas fa-lightbulb"></i> 專業建議</h3>
             <ul>
