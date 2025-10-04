@@ -1,16 +1,12 @@
-<!DOCTYPE html>
 <html lang="zh-TW">
 <head>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#8d6e63">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>舒壓服務項目</title>
-    
-    <!-- PWA 設定 -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="theme-color" content="#8d6e63">
-    
+    <title>按摩服務價目表與功效說明</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
         * {
@@ -20,30 +16,23 @@
             font-family: 'Microsoft JhengHei', Arial, sans-serif;
         }
         
-        /* 全屏設定 */
-        html, body {
-            height: 100%;
-            background: linear-gradient(135deg, #f5f1e6 0%, #ffffff 100%);
-            overflow: hidden;
-        }
-        
         body {
+            background: linear-gradient(135deg, #f5f1e6 0%, #ffffff 100%);
             color: #5a4a42;
             line-height: 1.6;
-            padding: 0; /* 移除 body padding */
+            padding: 15px;
             min-height: 100vh;
-            font-size: 18px;
+            font-size: 18px; /* 增大基礎字體大小 */
         }
         
         .container {
-            height: 100vh; /* 全屏高度 */
-            overflow-y: auto; /* 允許垂直滾動 */
-            background: white;
-            margin: 0 auto;
             max-width: 100%;
-            border-radius: 0; /* 移除圓角 */
-            box-shadow: none; /* 移除陰影 */
-            border: none; /* 移除邊框 */
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+            overflow: hidden;
+            border: 1px solid #f0e6df;
         }
         
         header {
@@ -51,19 +40,16 @@
             color: white;
             padding: 25px 20px;
             text-align: center;
-            position: sticky;
-            top: 0;
-            z-index: 10;
         }
         
         header h1 {
-            font-size: 28px;
+            font-size: 28px; /* 增大標題字體 */
             margin-bottom: 15px;
             line-height: 1.3;
         }
         
         header p {
-            font-size: 18px;
+            font-size: 18px; /* 增大副標題字體 */
             opacity: 0.9;
             max-width: 100%;
             margin: 0 auto;
@@ -81,7 +67,7 @@
         
         h2 {
             color: #8d6e63;
-            font-size: 22px;
+            font-size: 22px; /* 增大分類標題字體 */
             margin-bottom: 20px;
             padding-bottom: 10px;
             border-bottom: 2px solid #f0e6df;
@@ -126,14 +112,14 @@
         
         .service-name {
             font-weight: 600;
-            font-size: 20px;
+            font-size: 20px; /* 增大服務名稱字體 */
             flex: 2;
             margin-bottom: 5px;
         }
         
         .service-duration {
             color: #8d6e63;
-            font-size: 18px;
+            font-size: 18px; /* 增大時長字體 */
             flex: 1;
             text-align: right;
         }
@@ -143,13 +129,13 @@
             text-align: left;
             font-weight: 700;
             color: #5d4037;
-            font-size: 20px;
+            font-size: 20px; /* 增大價格字體 */
             margin-top: 5px;
         }
         
         .service-benefit {
             margin-top: 10px;
-            font-size: 17px;
+            font-size: 17px; /* 增大功效說明字體 */
             color: #7a665d;
             line-height: 1.5;
             padding-left: 10px;
@@ -184,7 +170,7 @@
             margin-bottom: 15px;
             display: flex;
             align-items: center;
-            font-size: 22px;
+            font-size: 22px; /* 增大建議標題字體 */
         }
         
         .recommendation h3 i {
@@ -197,7 +183,7 @@
         
         .recommendation li {
             margin-bottom: 12px;
-            font-size: 18px;
+            font-size: 18px; /* 增大建議內容字體 */
             line-height: 1.5;
         }
         
@@ -214,7 +200,8 @@
         /* 針對小屏幕設備的額外優化 */
         @media (max-width: 480px) {
             body {
-                font-size: 19px;
+                padding: 10px;
+                font-size: 19px; /* 在極小屏幕上進一步增大字體 */
             }
             
             header {
@@ -256,37 +243,7 @@
         
         /* 確保觸控元素有足夠的大小 */
         .service-item {
-            min-height: 60px;
-        }
-        
-        /* 隱藏滾動條但保持滾動功能 */
-        .container::-webkit-scrollbar {
-            display: none;
-        }
-        
-        .container {
-            -ms-overflow-style: none;
-            scrollbar-width: none;
-        }
-        
-        /* 全屏按鈕樣式 */
-        .fullscreen-btn {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background: #8d6e63;
-            color: white;
-            border: none;
-            border-radius: 50%;
-            width: 50px;
-            height: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 20px;
-            cursor: pointer;
-            z-index: 100;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            min-height: 60px; /* 確保觸控區域足夠大 */
         }
     </style>
 </head>
@@ -474,58 +431,9 @@
             </ul>
         </div>
 
-        <div style="text-align: center; margin: 30px 0;">
-            <a href="https://lin.ee/I7QaQ2J" target="_blank">
-                <img src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" 
-                     alt="加入好友" height="50" border="1">
-            </a>
+<div style="text-align: center; margin: 30px 0;">
+    <a href="https://lin.ee/I7QaQ2J" target="_blank">
+        <img src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" 
+             alt="加入好友" height="50" border="1">
+    </a>
         </div>
-        
-        <footer>
-            <p>以上價格與服務內容僅供參考，實際以店家現場公告為準</p>
-            <p>預約專線：XXXX-XXX-XXX | 營業時間：週一至週日 10:00-22:00</p>
-        </footer>
-    </div>
-    
-    <!-- 全屏按鈕 -->
-    <button class="fullscreen-btn" id="fullscreenBtn" title="全屏顯示">
-        <i class="fas fa-expand"></i>
-    </button>
-
-    <script>
-        // 全屏功能
-        document.getElementById('fullscreenBtn').addEventListener('click', function() {
-            if (!document.fullscreenElement) {
-                document.documentElement.requestFullscreen().catch(err => {
-                    console.log(`全屏請求錯誤: ${err.message}`);
-                });
-            } else {
-                if (document.exitFullscreen) {
-                    document.exitFullscreen();
-                }
-            }
-        });
-        
-        // 全屏狀態變化時更新按鈕圖標
-        document.addEventListener('fullscreenchange', function() {
-            const fullscreenBtn = document.getElementById('fullscreenBtn');
-            if (document.fullscreenElement) {
-                fullscreenBtn.innerHTML = '<i class="fas fa-compress"></i>';
-            } else {
-                fullscreenBtn.innerHTML = '<i class="fas fa-expand"></i>';
-            }
-        });
-        
-        // 防止滾動時網址欄顯示（適用於移動設備）
-        window.addEventListener('scroll', function() {
-            if (window.scrollY > 0) {
-                document.body.style.height = '100%';
-                document.body.style.overflow = 'hidden';
-            }
-        });
-        
-        // 隱藏滾動條
-        document.querySelector('.container').style.overflow = 'auto';
-    </script>
-</body>
-</html>
