@@ -427,9 +427,9 @@
             </ul>
         </div>
 
-<div style="text-align: center; margin: 20px 0;">
+<div style="text-align: center; margin: 30px 0;">
     <a href="https://lin.ee/I7QaQ2J" target="_blank">
         <img src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" 
-             alt="加入好友" height="40" border="0">
+             alt="加入好友" height="50" border="1">
     </a>
         </div>
