@@ -370,62 +370,71 @@
         </div>
         
         <div class="price-section">
-            <div class="service-category">
-                <h2><i class="fas fa-plus-circle"></i> 加購選項 <span style="font-size: 16px; color: #8d6e63; margin-left: 10px;">(點擊展開詳情)</span></h2>
-                
-                <div class="highlight">
-                    <!-- 可點擊的加購選項標題 -->
-                    <div class="addon-toggle" onclick="toggleAddon('addon1')">
-                        <div class="service-header">
-                            <div class="service-name">足部續時</div>
-                            <div class="service-duration">每30分鐘</div>
-                        </div>
-                        <div class="service-price">NT.450</div>
-                        <i class="fas fa-chevron-down addon-icon" id="icon1"></i>
+    <div class="service-category">
+        <h2>
+            <i class="fas fa-plus-circle"></i> 加購選項
+            <span style="font-size: 14px; color: #a1887f; margin-left: 8px;">（點擊長開詳情）</span>
+        </h2>
+
+        <div class="highlight">
+            <!-- 點擊標題展開區 -->
+            <div class="expand-toggle" 
+                 onclick="toggleExpand(this)" 
+                 style="cursor: pointer; font-weight: 600; font-size: 18px; display: flex; align-items: center; justify-content: space-between; color: #5d4037;">
+                點擊查看加購項目
+                <i class="fas fa-chevron-down" style="transition: transform 0.3s;"></i>
+            </div>
+
+            <!-- 展開內容區 -->
+            <div class="expand-content" style="display: none; margin-top: 15px;">
+
+                <div class="service-item">
+                    <div class="service-header">
+                        <div class="service-name">足部續時</div>
+                        <div class="service-duration">每30分鐘</div>
                     </div>
-                    <!-- 展開的詳細內容 -->
-                    <div class="addon-details" id="addon1">
-                        <div class="service-benefit">功效：延長足部護理時間，可針對特定反射區進行加強護理，適合需要更深度放鬆的客人。</div>
-                    </div>
-                    
-                    <div class="addon-toggle" onclick="toggleAddon('addon2')">
-                        <div class="service-header">
-                            <div class="service-name">身體續時</div>
-                            <div class="service-duration">每30分鐘</div>
-                        </div>
-                        <div class="service-price">NT.550</div>
-                        <i class="fas fa-chevron-down addon-icon" id="icon2"></i>
-                    </div>
-                    <div class="addon-details" id="addon2">
-                        <div class="service-benefit">功效：增加身體按摩時間，可針對個人需求加強特定部位護理，解決深層肌肉問題。</div>
-                    </div>
-                    
-                    <div class="addon-toggle" onclick="toggleAddon('addon3')">
-                        <div class="service-header">
-                            <div class="service-name">櫸木續時</div>
-                            <div class="service-duration">每30分鐘</div>
-                        </div>
-                        <div class="service-price">NT.650</div>
-                        <i class="fas fa-chevron-down addon-icon" id="icon3"></i>
-                    </div>
-                    <div class="addon-details" id="addon3">
-                        <div class="service-benefit">功效：延長櫸木鬆筋時間，進行更全面的筋膜放鬆，徹底解決肌肉沾黏問題。</div>
-                    </div>
-                    
-                    <div class="addon-toggle" onclick="toggleAddon('addon4')">
-                        <div class="service-header">
-                            <div class="service-name">升級多特瑞精油（足部）</div>
-                            <div class="service-duration">單次加購</div>
-                        </div>
-                        <div class="service-price">NT.200</div>
-                        <i class="fas fa-chevron-down addon-icon" id="icon4"></i>
-                    </div>
-                    <div class="addon-details" id="addon4">
-                        <div class="service-benefit">功效：使用高品質精油增強按摩效果，加強舒緩肌肉痠痛，提升整體放鬆體驗。</div>
-                    </div>
+                    <div class="service-price">NT.450</div>
                 </div>
+
+                <div class="service-item">
+                    <div class="service-header">
+                        <div class="service-name">身體續時</div>
+                        <div class="service-duration">每30分鐘</div>
+                    </div>
+                    <div class="service-price">NT.550</div>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-header">
+                        <div class="service-name">櫸木續時</div>
+                        <div class="service-duration">每30分鐘</div>
+                    </div>
+                    <div class="service-price">NT.650</div>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-header">
+                        <div class="service-name">升級多特瑞精油（足部）</div>
+                        <div class="service-duration">單次加購</div>
+                    </div>
+                    <div class="service-price">NT.200</div>
+                    <div class="service-benefit">功效：使用高品質精油增強按摩效果，加強舒緩肌肉痠痛。</div>
+                </div>
+
             </div>
         </div>
+    </div>
+</div>
+
+<script>
+function toggleExpand(el) {
+    const content = el.nextElementSibling;
+    const icon = el.querySelector('i');
+    const isOpen = content.style.display === "block";
+    content.style.display = isOpen ? "none" : "block";
+    icon.style.transform = isOpen ? "rotate(0deg)" : "rotate(180deg)";
+}
+</script>
 
         <div class="recommendation">
             <h3><i class="fas fa-lightbulb"></i> 專業建議</h3>
