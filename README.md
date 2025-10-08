@@ -373,7 +373,7 @@
     <div class="service-category">
         <h2>
             <i class="fas fa-plus-circle"></i> 加購選項
-            <span style="font-size: 14px; color: #a1887f; margin-left: 8px;">（點擊長開詳情）</span>
+            <span style="font-size: 14px; color: #a1887f; margin-left: 10px /span>
         </h2>
 
         <div class="highlight">
